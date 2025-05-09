@@ -27,6 +27,7 @@ To develop a Python program that implements a Circular Queue:
 ---
 
 ## 💻 Program:
+```
 class CircularQueue:
  def __init__(self, size):
     self.size = size
@@ -78,7 +79,7 @@ cq.display()
 print("\nRemoving 3 elements from the queue:")
 for i in range(3):
  removed = cq.dequeue()
-
+```
 ### Output:
 ![image](https://github.com/user-attachments/assets/60643abf-13d8-4363-9c52-b830a84d281c)
 ![image](https://github.com/user-attachments/assets/685187c2-defb-41b8-a639-5192fe50824d)
