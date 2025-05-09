@@ -21,6 +21,7 @@ To write a Python program to:
 6. Display the updated list.
 
 ##  Program:
+```
 q = []
 n=int(input())
 for i in range(n):
@@ -28,6 +29,7 @@ for i in range(n):
 q.pop(0)
 q.pop(0) 
 print(q)
+```
 
 ### Output:
 ![image](https://github.com/user-attachments/assets/d99ac0cc-4906-4746-9e8e-ce55570f8698)
